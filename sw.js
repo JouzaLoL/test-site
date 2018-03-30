@@ -42,13 +42,13 @@ var __wpo = {
     "477d65c3d7d3084484c98965bba62f4d2e1fd4a1": "./manifest.json",
     "779b2ff95997163d680d90dd5bbab81015d7fd84": "./",
     "0f7dd98965509924b58676c5610768a9335eecd6": "./tv.css",
-    "ce15ed81c7c353603dab24c6300f36e33e13f8a9": "./tv.js",
+    "7cd13e7e5e8666e4d42fcaee97aa8a6ee95a0462": "./tv.js",
     "3bb3af825af3941f80539f9a7388a21334f9e317": "./index.css",
-    "394ded1afa707c1a4c3a0a93f9e451ac9490b78a": "./index.js"
+    "5daaccac8b814d138cd250111ca182bb307ac99e": "./index.js"
   },
   "strategy": "changed",
   "responseStrategy": "cache-first",
-  "version": "2018-3-30 15:25:11",
+  "version": "2018-3-30 15:58:02",
   "name": "webpack-offline",
   "pluginVersion": "4.9.0",
   "relativePaths": true
