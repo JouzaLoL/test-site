@@ -23,7 +23,7 @@ var __wpo = {
     "32ecc19b8c505c3149ad535431b75c3d1c061327": "./robots.txt",
     "cbaa6bd8048a9e37bf5eb9fb5abff2f1ee43085b": "./img/favicon.png",
     "b6b0abf0dc4fa11eef693bf3ffc8441a699bb717": "./tv.html",
-    "6456cce6abf61f818747f39cb5000c9e66e0fe6c": "./manifest.json",
+    "a9a5a010e478b3a07b07a8be4cb380e0bd49a553": "./manifest.json",
     "8f0a1a73a2ace8bff70016037b9bb9aa62889ba2": "./",
     "0f7dd98965509924b58676c5610768a9335eecd6": "./tv.css",
     "021d5a3e9b35be7e6cf2dfa63b744e025c00710c": "./tv.js",
@@ -32,7 +32,7 @@ var __wpo = {
   },
   "strategy": "changed",
   "responseStrategy": "cache-first",
-  "version": "2018-3-30 11:49:00",
+  "version": "2018-3-30 11:51:18",
   "name": "webpack-offline",
   "pluginVersion": "4.9.0",
   "relativePaths": true
