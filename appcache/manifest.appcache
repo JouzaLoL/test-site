@@ -1,5 +1,5 @@
 CACHE MANIFEST
-#ver:2018-3-30 11:24:45
+#ver:2018-3-30 11:33:26
 #plugin:4.9.0
 
 CACHE:
@@ -8,6 +8,7 @@ CACHE:
 ../robots.txt
 ../img/favicon.png
 ../tv.html
+../manifest.txt
 ../
 ../tv.css
 ../tv.js
