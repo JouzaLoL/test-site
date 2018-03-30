@@ -44,11 +44,11 @@ var __wpo = {
     "0f7dd98965509924b58676c5610768a9335eecd6": "/test-site/tv.css",
     "ce15ed81c7c353603dab24c6300f36e33e13f8a9": "/test-site/tv.js",
     "3bb3af825af3941f80539f9a7388a21334f9e317": "/test-site/index.css",
-    "f97daca0517dc74c8ec66b73b21c1c327ae3a1af": "/test-site/index.js"
+    "fa733afc2dc80da83c6605fe7cf7907bb805d054": "/test-site/index.js"
   },
   "strategy": "changed",
-  "responseStrategy": "cache-first",
-  "version": "2018-3-30 14:58:58",
+  "responseStrategy": "network-first",
+  "version": "2018-3-30 15:11:42",
   "name": "webpack-offline",
   "pluginVersion": "4.9.0",
   "relativePaths": false
@@ -953,7 +953,7 @@ function logGroup(title, assets) {
         WebpackServiceWorker(__wpo, {
 loaders: {},
 cacheMaps: [],
-navigationPreload: false,
+navigationPreload: true,
 });
         module.exports = __webpack_require__(0)
       
