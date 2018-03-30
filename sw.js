@@ -44,11 +44,11 @@ var __wpo = {
     "0f7dd98965509924b58676c5610768a9335eecd6": "./tv.css",
     "7cd13e7e5e8666e4d42fcaee97aa8a6ee95a0462": "./tv.js",
     "3bb3af825af3941f80539f9a7388a21334f9e317": "./index.css",
-    "50b36915eda4ce8c309e7b8320c5b59199ba9380": "./index.js"
+    "8d3deca545513f0cbbd18b191e513d3cb73cb1a6": "./index.js"
   },
   "strategy": "changed",
   "responseStrategy": "network-first",
-  "version": "2018-3-30 16:09:56",
+  "version": "2018-3-30 16:20:34",
   "name": "webpack-offline",
   "pluginVersion": "4.9.0",
   "relativePaths": true
