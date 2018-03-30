@@ -8,7 +8,7 @@
     "icons": [
         {
             "src": "img/favicon.png",
-            "sizes": "512x512"
+            "sizes": [96, 128, 144, 192, 256, 384, 512]
         }
     ]
 }
