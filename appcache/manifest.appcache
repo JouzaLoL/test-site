@@ -1,10 +1,18 @@
 CACHE MANIFEST
-#ver:2018-3-30 11:52:57
+#ver:2018-3-30 12:18:26
 #plugin:4.9.0
 
 CACHE:
 ../img/pecet.jpg
 ../img/gh.png
+../img/icons/icon-96x96.png
+../img/icons/icon-72x72.png
+../img/icons/icon-512x512.png
+../img/icons/icon-384x384.png
+../img/icons/icon-192x192.png
+../img/icons/icon-152x152.png
+../img/icons/icon-144x144.png
+../img/icons/icon-128x128.png
 ../robots.txt
 ../img/favicon.png
 ../tv.html
