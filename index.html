@@ -9,6 +9,7 @@
 	<meta name="description" content="Aplikace Zastupování - Chytrý prohlížeč změn rozvrhu. Filtrujte změny dle jména učitele, třídy, učebny, času, ... Funguje na PC i mobilu, iOS i Androidu.">
 	<meta name="theme-color" content="#2d548d">
 	<link rel="shortcut icon" href="./img/favicon.png" type="image/png">
+	<link rel="manifest" href="./manifest.json">
 	<!-- Facebook link decorators -->
 	<meta property="og:title" content="Zastupování">
 	<meta property="og:description" content="A better way to view GH Zastupování">
@@ -25,8 +26,9 @@
 		gtag('config', 'UA-111548982-1');
 	</script>
 	<!-- Styles -->
-	<link rel="stylesheet" href="main.css">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+	<link rel="stylesheet" href="index.css">
+	<!-- EU Cookie law -->
+	<script src="//d2z9iq901qkqk8.cloudfront.net/cz.js" async></script>
 </head>
 
 <body>
@@ -34,7 +36,7 @@
 		<div class="container">
 
 			<!-- HEADER -->
-			<div class="row mt-4 justify-content-center" id="header">
+			<div class="row justify-content-center" id="header">
 				<div class="col-md-1 pr-0">
 					<a href="http://www.gytool.cz">
 						<img src="./img/gh.png" class="img-fluid d-none d-md-block" alt="GH Logo">
@@ -44,7 +46,7 @@
 					<h4 class="logo">
 						<a href="http://www.gytool.cz">Gymnázium, Olomouc - Hejčín</a>
 					</h4>
-					<hr style="width: 300px">
+					<hr style="width: 300px" class="mt-2 mb-2">
 					<h2 class="mb-0">Zastupování</h2>
 				</div>
 				<div class="col-md-1 pl-0">
@@ -63,13 +65,15 @@
 					</div>
 				</div>
 				<fieldset class="col-md-2 form-group" id="selectorField_date">
-					<label for="selector_date" class="bmd-label-floating">Datum</label>
-					<select class="form-control" name="selector_date" id="selector_date" data-test="datePicker"></select>
+					<div id="driver_date">
+						<label for="selector_date" class="bmd-label-floating">Datum</label>
+						<select class="form-control" name="selector_date" id="selector_date" data-test="datePicker" disabled></select>
+					</div>
 				</fieldset>
 				<fieldset class="col-md-7 form-group" id="selectorField_filter">
 					<label for="selector_filter" class="bmd-label-floating">Filtr</label>
 					<input type="text" class="form-control" name="selector_filter" id="selector_filter" placeholder="Učitel, třída..." list="filterSuggestions"
-					 data-test="filterTextbox">
+					 data-test="filterTextbox" readonly>
 					<datalist id="filterSuggestions">
 					</datalist>
 				</fieldset>
@@ -79,7 +83,11 @@
 			<!-- SUPLOVÁNÍ -->
 			<div class="row">
 				<div class="col-md-12">
-					<h5>Suplování</h5>
+					<h5 class="float-left">Suplování</h5>
+					<span class="float-right text-muted small" style="position: relative; bottom: -5px;">
+						Poslední aktualizace:
+						<span id="lastUpdated"></span>
+					</span>
 				</div>
 				<div class="col-md-12 table-responsive">
 					<table class="table table-bordered table-sm table-striped table-hover" id="table_suplovani" data-test="suplovaniTable">
@@ -188,17 +196,15 @@
 			<!-- FOOTER -->
 			<div class="row justify-content-center text-center">
 				<div class="col-md-12">
-					<button type="button" class="btn btn-sm btn-info" id="pruvodce">Průvodce</button>
+					<button type="button" class="btn btn-sm btn-outline" id="pruvodce">Průvodce</button>
 				</div>
 				<div class="col-md-12">
 					<div class="alert alert-light">
-						<span class="footer p-3">&copy;
+						<span class="footer p-3">
+							<span ontouchstart="this.innerHTML = '🥚'" onclick="this.innerHTML = '🥚'">&copy;</span>
 							<a href="https://github.com/JouzaLoL">Josef Vacek</a>
-							-
+							<span ontouchstart="this.innerHTML = '🐇'" onclick="this.innerHTML = '🐇'">-</span>
 							<a href="mailto:vacekj@outlook.com">Kontakt</a>
-							- Made with
-							<img class="glyph" src="svg/heart.svg" alt="Love"> and
-							<img class="glyph" src="svg/code.svg" alt="Code">
 						</span>
 					</div>
 				</div>
@@ -208,7 +214,7 @@
 	<!-- Polyfill -->
 	<script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
 	<!-- Webpack bundle -->
-	<script src="main.js"></script>
+	<script src="index.js"></script>
 </body>
 
 </html>
