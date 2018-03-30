@@ -47,8 +47,8 @@ var __wpo = {
     "50b36915eda4ce8c309e7b8320c5b59199ba9380": "./index.js"
   },
   "strategy": "changed",
-  "responseStrategy": "cache-first",
-  "version": "2018-3-30 16:00:05",
+  "responseStrategy": "network-first",
+  "version": "2018-3-30 16:09:56",
   "name": "webpack-offline",
   "pluginVersion": "4.9.0",
   "relativePaths": true
@@ -953,7 +953,7 @@ function logGroup(title, assets) {
         WebpackServiceWorker(__wpo, {
 loaders: {},
 cacheMaps: [],
-navigationPreload: false,
+navigationPreload: true,
 });
         module.exports = __webpack_require__(0)
       
