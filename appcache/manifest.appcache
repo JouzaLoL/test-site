@@ -1,0 +1,18 @@
+CACHE MANIFEST
+#ver:2018-3-30 11:24:45
+#plugin:4.9.0
+
+CACHE:
+../img/pecet.jpg
+../img/gh.png
+../robots.txt
+../img/favicon.png
+../tv.html
+../
+../tv.css
+../tv.js
+../index.css
+../index.js
+
+NETWORK:
+*
