@@ -39,16 +39,16 @@ var __wpo = {
     "32ecc19b8c505c3149ad535431b75c3d1c061327": "./robots.txt",
     "cbaa6bd8048a9e37bf5eb9fb5abff2f1ee43085b": "./img/favicon.png",
     "b6b0abf0dc4fa11eef693bf3ffc8441a699bb717": "./tv.html",
-    "85b612a2cd0c1294e99e14b4b6eadba8b48a4861": "./manifest.json",
-    "4f92a50d1ba35e880080a68c3b57114b2c52f86d": "./",
+    "a541285acec4f185e957e42d7ff1b5ccac133f51": "./manifest.json",
+    "72606516e9cea2db041724886562199d06658b51": "./",
     "0f7dd98965509924b58676c5610768a9335eecd6": "./tv.css",
     "ce15ed81c7c353603dab24c6300f36e33e13f8a9": "./tv.js",
     "3bb3af825af3941f80539f9a7388a21334f9e317": "./index.css",
-    "a612830282635a3781a340cb8bc4b532095f4f23": "./index.js"
+    "90e1c5183dabd261fa200c25326a0bb32ac7635e": "./index.js"
   },
   "strategy": "changed",
   "responseStrategy": "cache-first",
-  "version": "2018-3-30 12:52:15",
+  "version": "2018-3-30 14:17:10",
   "name": "webpack-offline",
   "pluginVersion": "4.9.0",
   "relativePaths": true
