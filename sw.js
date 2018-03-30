@@ -32,7 +32,7 @@ var __wpo = {
   },
   "strategy": "changed",
   "responseStrategy": "cache-first",
-  "version": "2018-3-30 11:44:05",
+  "version": "2018-3-30 11:49:00",
   "name": "webpack-offline",
   "pluginVersion": "4.9.0",
   "relativePaths": true
